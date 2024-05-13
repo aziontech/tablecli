@@ -8,6 +8,11 @@ Packages provide a convenient way to generate tabular output of any data, useful
 
 <img src="https://raw.githubusercontent.com/maxwelbm/tablecli/main/example.gif?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Girl in a jacket" width="100%" height="250px">
 
+#### Install Package
+```sh
+go get github.com/aziontech/tablecli
+```
+
 #### Example of use:
 ```go 
 package main
