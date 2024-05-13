@@ -13,7 +13,7 @@ Packages provide a convenient way to generate tabular output of any data, useful
 package main
 
 import (
-    table "github.com/MaxwelMazur/tablecli"
+    table "github.com/aziontech/tablecli"
     "github.com/fatih/color"
     "strings"
 )
