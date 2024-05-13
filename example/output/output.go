@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	table "github.com/MaxwelMazur/tablecli"
+	table "github.com/aziontech/tablecli"
 	"github.com/spf13/cobra"
 )
 
