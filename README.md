@@ -4,7 +4,7 @@
 [![GoDoc](https://img.shields.io/badge/reference-GO-blue.svg?style=&logo=go&logoColor=white)](https://godoc.org/github.com/aziontech/tablecli)
 [![Go Report Card](https://goreportcard.com/badge/github.com/aziontech/tablecli)](https://goreportcard.com/report/github.com/aziontech/tablecli)
 
-Packages provide a convenient way to generate tabular output of any data, useful primarily for CLI tools.
+This package provides a convenient way to generate tabular output of any data, which is useful primarily for CLI tools.
 
 <img src="https://raw.githubusercontent.com/maxwelbm/tablecli/main/example.gif?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Girl in a jacket" width="100%" height="250px">
 
