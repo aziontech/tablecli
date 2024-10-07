@@ -253,12 +253,14 @@ func (t *table) CalculateWidths(h []string) {
 
 	if len(WidthPersist) > 0 {
 		for i := 0; i < len(t.Widths); i++ {
-			if t.Widths[i] < WidthPersist[i] {
+			// Checks if WidthPersist has the index `i` before accessing it
+			if i < len(WidthPersist) && t.Widths[i] < WidthPersist[i] {
 				t.Widths[i] = WidthPersist[i]
 			}
 		}
 	} else {
-		WidthPersist = t.Widths
+		WidthPersist = make([]int, len(t.Widths))
+		copy(WidthPersist, t.Widths)
 	}
 }
 
